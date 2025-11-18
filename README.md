@@ -9,7 +9,6 @@ Repository containing ChebyKAN, KAN (B-spline) and FC networks used to solve a t
   - `train.py` : runnable scripts (`show_comparison`, `show_combined`) and CLI-like entrypoints
   - `plot_utils.py` : plotting helpers
   - `utils.py` : small helpers (seed, metrics)
-  - `hermite.py` : *placeholder* for your hermite utilities (replace with your original)
 - `requirements.txt` : python dependencies
 - `.gitignore`
 
