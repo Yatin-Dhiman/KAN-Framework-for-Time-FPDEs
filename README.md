@@ -1,4 +1,4 @@
-# TFDE_ChebyKAN_KAN
+# TFDE_KAN
 
 Repository containing ChebyKAN, KAN (B-spline) and FC networks used to solve a test time-fractional PDE (TFDE).
 
