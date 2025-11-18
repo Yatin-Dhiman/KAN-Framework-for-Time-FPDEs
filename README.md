@@ -18,4 +18,6 @@ Repository containing ChebyKAN, KAN (B-spline) and FC networks used to solve a t
 3. Run examples:
    - `python -m src.train show_comparison`
    - `python -m src.train show_combined`
+  
+   - 
 Note: In the same way, we can write the corresponding formulation for the remaining examples.
