@@ -4,7 +4,7 @@ Repository containing ChebyKAN, KAN (B-spline) and FC networks used to solve a t
 
 ## Structure
 - `src/` : python package with modules
-  - `networks.py` : all network definitions (ChebyKAN, KAN, Net)
+  - `networks.py` : all network definitions (ChebyKAN, KAN, FNN)
   - `model.py` : `Model` class implementing PDE loss, training, prediction
   - `train.py` : runnable scripts (`show_comparison`, `show_combined`) and CLI-like entrypoints
   - `plot_utils.py` : plotting helpers
@@ -12,12 +12,5 @@ Repository containing ChebyKAN, KAN (B-spline) and FC networks used to solve a t
 - `requirements.txt` : python dependencies
 - `.gitignore`
 
-## How to run
-1. Create a virtual environment: `python -m venv .venv && source .venv/bin/activate`
-2. Install: `pip install -r requirements.txt`
-3. Run examples:
-   - `python -m src.train show_comparison`
-   - `python -m src.train show_combined`
   
-   - 
 Note: In the same way, we can write the corresponding formulation for the remaining examples.
